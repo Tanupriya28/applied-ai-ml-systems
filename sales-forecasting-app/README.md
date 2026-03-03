@@ -1,12 +1,12 @@
-# 📈 Sales Forecasting Dashboard (LSTM + ARIMA + Ensemble)
+#  Sales Forecasting Dashboard (LSTM + ARIMA + Ensemble)
 
-## 🔍 Project Overview
+##  Project Overview
 
 This project implements an end-to-end time series forecasting system to predict weekly retail sales using both deep learning and statistical models. It integrates LSTM neural networks, ARIMA models, and ensemble forecasting into an interactive web dashboard for business-friendly analysis.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 - Predict weekly sales for retail stores  
 - Compare deep learning and statistical forecasting models  
@@ -16,7 +16,7 @@ This project implements an end-to-end time series forecasting system to predict 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python  
 - Pandas, NumPy  
@@ -28,25 +28,25 @@ This project implements an end-to-end time series forecasting system to predict 
 
 ---
 
-## 📊 Models Implemented
+##  Models Implemented
 
-### 🔹 LSTM (Long Short-Term Memory)
+###  LSTM (Long Short-Term Memory)
 - Sequence-based deep learning model  
 - Captures long-term temporal dependencies  
 - Handles nonlinear demand patterns  
 
-### 🔹 ARIMA
+###  ARIMA
 - Classical statistical forecasting model  
 - Effective for short-term trend prediction  
 - Used as baseline comparison  
 
-### 🔹 Ensemble Forecast
+###  Ensemble Forecast
 - Average of LSTM and ARIMA predictions  
 - Improves stability and reduces variance  
 
 ---
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - RMSE (Root Mean Squared Error)  
 - MAE (Mean Absolute Error)  
@@ -55,7 +55,7 @@ Used to evaluate accuracy across historical data.
 
 ---
 
-## 📉 Forecast Confidence Interval
+##  Forecast Confidence Interval
 
 Uncertainty bands computed using:
 
@@ -65,7 +65,7 @@ Provides risk-aware forecasting.
 
 ---
 
-## 💻 Dashboard Features
+## Dashboard Features
 
 - Store-wise filtering  
 - Model switching (LSTM / ARIMA / Ensemble)  
@@ -79,7 +79,7 @@ Provides risk-aware forecasting.
 
 ---
 
-## 🧠 Business Insights Generated
+##  Business Insights Generated
 
 - Sales trend direction  
 - Demand volatility measurement  
@@ -89,7 +89,7 @@ Provides risk-aware forecasting.
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 python -m venv venv
 venv\Scripts\activate
@@ -100,7 +100,7 @@ python app.py
 Open in browser:
 http://127.0.0.1:5000
 ________________________________________
-## 📌 Key Learnings
+##  Key Learnings
 •	Time series modeling techniques
 •	Deep learning vs statistical forecasting
 •	Forecast evaluation metrics
