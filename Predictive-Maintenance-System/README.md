@@ -1,11 +1,11 @@
-# 🔧 AssetHealth – Predictive Maintenance System (2024 Project)
+#  AssetHealth – Predictive Maintenance System (2024 Project)
 
 > ⚠️ Note: This project was originally developed in 2024 as a collaborative academic project.  
 > The original repository was private/forked. It has now been re-uploaded publicly for portfolio and documentation purposes.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 AssetHealth is a real-time Predictive Maintenance system built to monitor industrial rotary equipment using vibration analysis and machine learning.
 
@@ -13,7 +13,7 @@ The system collects vibration signals from MPU6050 sensors via ESP32, processes 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 MPU6050 Sensor → ESP32 → Google Sheets (Cloud Storage)
 ↓
 Flask Backend (Preprocessing + ML Inference)
@@ -23,19 +23,19 @@ React Frontend Dashboard (Visualization + Alerts)
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📡 Real-time vibration data ingestion
-- 🔄 Automatic data fetching from cloud (Google Sheets)
-- 🧮 Wavelet/Signal preprocessing & FFT feature extraction
-- 🤖 Hybrid ML Model (XGBoost + SVM)
-- 📊 FFT frequency visualization
-- 📈 ISO vibration severity classification
-- 🌐 Full-stack integration (Flask + React)
+-  Real-time vibration data ingestion
+-  Automatic data fetching from cloud (Google Sheets)
+-  Wavelet/Signal preprocessing & FFT feature extraction
+-  Hybrid ML Model (XGBoost + SVM)
+-  FFT frequency visualization
+-  ISO vibration severity classification
+-  Full-stack integration (Flask + React)
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 1. Raw vibration signals (X, Y, Z axes)
 2. Missing value handling (SimpleImputer)
@@ -53,7 +53,7 @@ React Frontend Dashboard (Visualization + Alerts)
 
 ---
 
-## 📊 Severity Classification (ISO Based)
+##  Severity Classification (ISO Based)
 
 The system classifies vibration levels using ISO vibration standards depending on machine power class:
 
@@ -68,14 +68,14 @@ Severity Levels:
 - 🔴 Danger
 
 ---
-## 📷 Interface Preview
+##  Interface Preview
 
 The screenshots displayed in this repository represent the application interface and sample outputs.
 
 > Note: The values shown in the interface are for demonstration purposes.  
 > When connected to the MPU6050 sensor and ESP32 module, the system automatically updates in real-time based on live vibration data streamed to the backend.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - Python 3.10
@@ -97,12 +97,12 @@ The screenshots displayed in this repository represent the application interface
 
 ---
 ________________________________________
-## 📈 Sample API Endpoints
+##  Sample API Endpoints
 •	/predict → Returns machine health status
 •	/get_severity → Returns ISO severity classification
 •	/fft → Returns FFT values for graph visualization
 ________________________________________
-## 📌 Project Status
+##  Project Status
 This repository represents the deployment and integration version of the system.
 The original training pipeline was implemented collaboratively in Google Colab.
 Future improvements may include:
@@ -111,7 +111,7 @@ Future improvements may include:
 •	Database integration instead of Google Sheets
 •	Real-time streaming via MQTT
 ________________________________________
-## 🤝 Collaboration Note
+##  Collaboration Note
 This project was developed as part of a team in 2024.
 My contributions focused on:
 •	Backend API integration
