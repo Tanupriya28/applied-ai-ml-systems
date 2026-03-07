@@ -46,9 +46,13 @@ def make_lstm_forecast(series):
 
     return np.concatenate([np.full(LOOKBACK, np.nan), preds])
 
-
 def make_arima_forecast(series):
-    return arima_model.forecast(len(series))
+
+    preds = arima_model.predict(start=1, end=len(series)-1)
+
+    preds = np.insert(preds, 0, series[0])
+
+    return preds
 
 
 def metrics(y, p):
@@ -163,3 +167,4 @@ def download():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
